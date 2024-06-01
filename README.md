@@ -25,7 +25,7 @@ The Password Memorizer App is a simple, secure tool to help you store and manage
 
 ## Getting Started
 
-To get started with the Password Memorizer App, simply visit the [live demo](https://<username>.github.io/<repository-name>/) on GitHub Pages.
+To get started with the Password Memorizer App, simply visit the [live demo](https://mlinarello.github.io/password-memorizer/index.html) on GitHub Pages.
 
 ### Usage
 
