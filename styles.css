@@ -1,0 +1,40 @@
+.btn-close {
+  margin-left: auto; /* Align close button to the right corner of the modal */
+}
+.container * {
+  pointer-events: none; /* Disable pointer events for all elements within the container */
+  cursor: default; /* Ensure the cursor appears as default */
+  user-select: none; /* Prevent text selection */
+}
+
+.container input,
+.container button,
+.container select,
+.container textarea,
+.container ul * {
+  pointer-events: auto; /* Re-enable pointer events for interactive elements */
+  cursor: default;
+  user-select: none;
+}
+
+.container {
+  max-width: 600px;
+  margin-top: 50px;
+}
+h2,
+h3 {
+  pointer-events: none; /* Disable mouse interactions */
+  cursor: default; /* Standard cursor */
+  user-select: none; /* Prevents text selection */
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+img {
+  border-radius: 20%;
+  margin-left: 20px;
+}
+.modal-body,
+.modal-footer {
+  padding: 20px;
+}
